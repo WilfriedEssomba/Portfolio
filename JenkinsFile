@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    tools {
+        nodejs 'Node 18'
+    }
+    stages {
+        stage('Hello') {
+            steps {
+                sh 'whoami'
+            }
+        }
+        stage('With node') {
+            steps {
+                sh 'npm --version'
+                sh 'docker --version'
+            }
+        }
+    }
+}
