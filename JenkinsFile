@@ -19,5 +19,11 @@ pipeline {
                 sh 'echo "Execute tests here"'
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'npm install netlify-cli'
+                sh 'netlify --version'
+            }
+        }
     }
 }
