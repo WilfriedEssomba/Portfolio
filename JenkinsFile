@@ -22,7 +22,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'npm install netlify-cli'
-                sh 'netlify --version'
+                sh 'netlify'
             }
         }
     }
