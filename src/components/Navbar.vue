@@ -35,7 +35,5 @@
 <style>
   .nav-item:hover{
       border-bottom: 2px solid rgb(0, 128, 255);
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px; 
   }
 </style>
