@@ -6,7 +6,7 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow" style="background-color:white;">
     <div class="container px-4">
       <a class="navbar-brand" href="#home">
-        <span style="color:black; font-size:28px; font-weight:bold; letter-spacing: 1px;font-family:sans-serif">XXXXXXX XXXXXXXX</span>
+        <span style="color:black; font-size:28px; font-weight:bold; letter-spacing: 1px;font-family:sans-serif">ESSOMBA WILFRIED</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span

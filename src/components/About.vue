@@ -4,7 +4,7 @@
 
 <template>
   <div class="about" id="about">
-    <div class="head text-center">
+    <div class="head text-center mb-5 pt-3">
       <h2>ABOUT ME</h2>
       <hr class="line">
       <span>Here you will find more information about me, what I do, and my current skills mostly in terms <br> of programming and technology</span>
@@ -21,7 +21,7 @@
           <br>
           I am committed to staying up-to-date with the latest industry trends and technologies. I thrive in collaborative environments and enjoy working with cross-functional teams to achieve project goals. My strong problem-solving abilities and attention to detail ensure high-quality deliverables
         </div>
-        <a class="contact-btn btn btn-primary" href="#contact">Contact Me</a>
+        <a class="contact-btn btn btn-primary py-2 px-4" href="#contact">Contact Me</a>
       </div>
 
       <div class="two">
@@ -56,16 +56,6 @@
     height: 800px;
     background: rgb(236, 236, 236);
 }
-.about .head{
-  margin-bottom: 70px;
-}
-.about .head .line{
-  width: 3%;
-  border: 2px solid rgb(0, 128, 255);
-  position: relative;
-  top: 0px;
-  left: 48.5%;
-}
 .about .head span{
   font-size: 22px;
 }
@@ -87,8 +77,10 @@
 }
 .about .body .one .contact-btn{
   margin-top: 20px;
-  height: 50px;
-  width: 150px;
+  /* height: 45px;
+  width: 150px; */
+  font-size: 18px;
+  font-weight: 600;
 }
 .about .body .two{
   flex-basis: 40%;
