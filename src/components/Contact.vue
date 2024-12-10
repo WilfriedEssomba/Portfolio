@@ -9,8 +9,8 @@
       <hr class="line">
     </div>
     
-    <div class="contact-container mb-3">
-      <form action="" method="post" class=" py-4 form-control">
+    <div class="contact-container shadow">
+      <form action="" method="post" class=" py-4 form-control rounded shadow">
         <label for="" class="mx-4">Name</label>
         <input type="text" class="form-control mt-2 mb-4  py-2">
         <label for="" class="mx-4">Email</label>
@@ -40,7 +40,7 @@
 }
 
 .contact-container{
-  height: 600px;
+  height: 500px;
   width: 45%;
   margin: auto;
 }

@@ -10,8 +10,11 @@
     </div>
       <div class="container">
         <div class="project-body mb-5">
-          <div class="project-text">
-            Text
+          <div class="project-text rounded shadow">
+            <h2>Kiya Shop</h2>
+            <div>
+
+            </div>
           </div>
 
           <div class="project-image">
@@ -20,8 +23,11 @@
         </div>
 
         <div class="project-body mb-5">
-          <div class="project-text">
-            Text
+          <div class="project-text rounded shadow">
+            <h2>Blood Donation</h2>
+            <div>
+
+            </div>
           </div>
 
           <div class="project-image">
@@ -30,8 +36,11 @@
         </div>
 
         <div class="project-body mb-5">
-          <div class="project-text">
-            Text
+          <div class="project-text rounded shadow">
+            <h2>APEX</h2>
+            <div>
+
+            </div>
           </div>
 
           <div class="project-image">
@@ -40,8 +49,11 @@
         </div>
 
         <div class="project-body mb-5">
-          <div class="project-text">
-            Text
+          <div class="project-text rounded shadow">
+            <h2>Utecq Learning</h2>
+            <div>
+
+            </div>
           </div>
 
           <div class="project-image">
@@ -72,11 +84,11 @@
   flex-direction: row-reverse;
 }
 .project-text{
-background: #afafaf;
+background: rgb(236, 236, 236);
 width: 47%;
 }
 .project-image{
-background: white;
+background: transparent;
 width: 47%;
 }
 </style>

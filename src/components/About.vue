@@ -28,22 +28,22 @@
         <h4>skills</h4>
         <div>
           <div class="skill">
-            <span>HTML</span> <span>CSS</span> <span>BOOTSTRAP</span>
+            <span class="shadow">HTML</span> <span class="shadow">CSS</span> <span class="shadow">BOOTSTRAP</span>
           </div>
           <div class="skill">
-            <span>JAVASCRIPT</span> <span>VUE JS</span> <span>JQUERY</span>
+            <span class="shadow">JAVASCRIPT</span> <span class="shadow">VUE JS</span> <span class="shadow">JQUERY</span>
           </div>
           <div class="skill">
-            <span>PHP</span> <span>LARAVEL</span> <span>WORRDPRESS</span>
+            <span class="shadow">PHP</span> <span class="shadow">LARAVEL</span> <span class="shadow">WORRDPRESS</span>
           </div>
           <div class="skill">
-            <span>PYTHON</span> <span>DJANGO</span> 
+            <span class="shadow">PYTHON</span> <span class="shadow">DJANGO</span> 
           </div>
           <div class="skill">
-            <span>DART</span> <span>FLUTTER</span>
+            <span class="shadow">DART</span> <span class="shadow">FLUTTER</span>
           </div>
           <div class="skill">
-            <span>GIT</span> <span>DOCKER</span> <span>JENKINS</span>  
+            <span class="shadow">GIT</span> <span class="shadow">DOCKER</span> <span class="shadow">JENKINS</span>  
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
 }
 .about .body .two span{
   width: 50px;
-  background: rgb(209, 209, 209);
+  background: rgb(218, 218, 218);
   color: rgb(113, 113, 113);
   padding: 10px 20px 10px 20px;
   margin-right: 20px;
@@ -100,7 +100,7 @@
 
 }
 .skill{
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 </style>
