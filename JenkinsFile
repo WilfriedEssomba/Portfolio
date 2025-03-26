@@ -24,6 +24,8 @@ pipeline {
                 sh "pwd"
                 sh '''
                     npm install netlify-cli -g
+                    netlify logout
+                    netlify login
                     netlify status
                     netlify deploy --dir=dist --prod
                 '''
